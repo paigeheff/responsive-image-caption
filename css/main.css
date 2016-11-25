@@ -38,8 +38,6 @@ body {
   padding: 1.5rem 1.5rem 0;
 }
 
-
-
 @media only screen and (min-width: 38em) {
 
   html {
@@ -47,31 +45,31 @@ body {
     line-height: 1.4;
   }
 
-.body {
-  position: relative;
-  background-color: rgba(0, 0, 0, .3);
-  border-radius: 10px;
-  color: #fff;
-  top: 8rem;
-  left: 15rem;
-  max-width: 20rem;
-}
+  .body {
+    position: absolute;
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: 10px;
+    color: #fff;
+    bottom: 1.3rem;
+    right: 1.3rem;
+    max-width: 20rem;
+  }
 
-.img-flex {
-  position: absolute;
-}
+  .figure {
+    position: relative;
+  }
 }
 
 @media only screen and (min-width: 60em) {
 
   html {
-     font-size: 120%;
-     line-height: 1.5;
-   }
+    font-size: 120%;
+    line-height: 1.5;
+  }
 
 }
 
-@media only screen and (min-width: 90em) {
+  @media only screen and (min-width: 90em) {
 
   html {
     font-size: 130%;
