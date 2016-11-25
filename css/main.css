@@ -10,8 +10,71 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
+  font: normal 100%/1.3 Georgia, serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+
+}
+
+h2 {
+  font-family: "Denk One", sans-serif;
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
+body {
+  margin: 0;
+}
+
+.body {
+  background-color: #e2e2e2;
+  padding: 1.5rem 1.5rem 0;
+}
+
+
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+.body {
+  position: relative;
+  background-color: rgba(0, 0, 0, .3);
+  border-radius: 10px;
+  color: #fff;
+  top: 8rem;
+  left: 15rem;
+  max-width: 20rem;
+}
+
+.img-flex {
+  position: absolute;
+}
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+     font-size: 120%;
+     line-height: 1.5;
+   }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
 }
